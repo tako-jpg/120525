@@ -7,11 +7,10 @@ public class Main {
         double [] fractionalNumber = {1.57, 7.654, 9.986};
         int [] numbersArbitrary = new int [] {5, 3, 8};
 
-
         System.out.println("Задача 2");
-        System.out.println(Arrays.toString(numbers));
-        System.out.println(Arrays.toString(fractionalNumber));
-        System.out.println(Arrays.toString(numbersArbitrary));
+        System.out.println(Arrays.toString(numbers).replace("[", "").replace("]", ""));
+        System.out.println(Arrays.toString(fractionalNumber).replace("[", "").replace("]", ""));
+        System.out.println(Arrays.toString(numbersArbitrary).replace("[", "").replace("]", ""));
 
         System.out.println("Задача 3");
         for (int i = numbers.length - 1; i >= 0; i--) {
